@@ -8,7 +8,7 @@
 
 
     <com.example.andriod_pan.customview.iu.TitlebarView
-        android:id="@+id/ctb"
+        android:id="@+id/tbv"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/sky_blue"

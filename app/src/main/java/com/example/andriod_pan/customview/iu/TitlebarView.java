@@ -72,13 +72,19 @@ public class TitlebarView extends RelativeLayout {
         layout_left.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                mClick.leftClick();
+                if(mClick!=null){
+                    mClick.leftClick();
+                }
+
             }
         });
         layout_right.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                mClick.rightClick();
+                if(mClick!=null){
+                    mClick.rightClick();
+                }
+
             }
         });
 
