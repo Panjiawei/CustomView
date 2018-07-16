@@ -12,16 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/sky_blue"
-        app:centerTitle="自定义标题"
         app:centerTextColor="#FFF"
+        app:centerTitle="自定义标题"
         app:leftDrawble="@mipmap/icon_white_jump"
-        app:leftTextColor="#FFF"
         app:leftText="返回"
+        app:leftTextColor="#FFF"
         app:rightDrawable="@android:drawable/ic_btn_speak_now"
         app:rightText="语音"
-        app:rightTextColor="#FFF"
-        />
-
+        app:rightTextColor="#FFF" />
 
 
 </LinearLayout>

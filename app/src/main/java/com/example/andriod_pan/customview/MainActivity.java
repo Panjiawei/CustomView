@@ -14,19 +14,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tbv = findViewById(R.id.tbv);
-
         tbv.setOnViewClick(new TitlebarView.onViewClick() {
             @Override
             public void leftClick() {
                 finish();
 
             }
-
             @Override
             public void rightClick() {
                 Toast.makeText(getApplicationContext(),"dianjianlewo",Toast.LENGTH_SHORT).show();
             }
         });
+
+
     }
 
 
