@@ -4,10 +4,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.andriod_pan.customview.iu.RippleView;
 import com.example.andriod_pan.customview.iu.TitlebarView;
 
 public class MainActivity extends AppCompatActivity {
     TitlebarView tbv;
+    RippleView rippleView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +22,15 @@ public class MainActivity extends AppCompatActivity {
                 finish();
 
             }
+
             @Override
             public void rightClick() {
-                Toast.makeText(getApplicationContext(),"dianjianlewo",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "dianjianlewo", Toast.LENGTH_SHORT).show();
             }
         });
+        rippleView = findViewById(R.id.rv_pan);
 
-
+        rippleView.startAnim();
     }
 
 

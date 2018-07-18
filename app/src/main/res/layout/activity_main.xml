@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.andriod_pan.customview.MainActivity">
 
 
@@ -21,5 +22,22 @@
         app:rightText="语音"
         app:rightTextColor="#FFF" />
 
+    <!--<com.example.andriod_pan.customview.iu.MyView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="center" />-->
+
+    <!--<com.example.andriod_pan.customview.iu.MovePathView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<com.example.andriod_pan.customview.iu.MoveQuatoView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <com.example.andriod_pan.customview.iu.RippleView
+        android:id="@+id/rv_pan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
