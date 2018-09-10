@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         tbv.setOnViewClick(new TitlebarView.onViewClick() {
             @Override
             public void leftClick() {
-                finish();
-
+               // finish();
+                startActivity(new Intent(getApplicationContext(),Main3Activity.class));
             }
 
             @Override
