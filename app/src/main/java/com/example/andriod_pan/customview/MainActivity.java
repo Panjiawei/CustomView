@@ -1,5 +1,6 @@
 package com.example.andriod_pan.customview;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -25,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void rightClick() {
-                Toast.makeText(getApplicationContext(), "dianjianlewo", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "dianjianlewo", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(),Main2Activity.class));
             }
         });
         rippleView = findViewById(R.id.rv_pan);
