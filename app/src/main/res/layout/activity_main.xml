@@ -11,7 +11,8 @@
     <com.example.andriod_pan.customview.iu.TitlebarView
         android:id="@+id/tbv"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
+        android:paddingTop="20dp"
         android:background="@color/sky_blue"
         app:centerTextColor="#FFF"
         app:centerTitle="自定义标题"
